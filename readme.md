@@ -67,27 +67,37 @@ We will use the MySQL server running on a Linux server of School of Computing.
 
 1. Create a new MySQL connection by clicking the plus sign 
 <p align="center">
-<img src="images/Workbench-1.png" alt="create a new connection" width="80%"/>
+<img src="images/Workbench-1.png" alt="create a new connection" width="70%"/>
 </p>  
 
 2. Type the hostname `cse-linux-01.unl.edu`, your MySQL username (e.g., my MySQL username is lxu3), a connection name (e.g., UNLCSE). We will use the defalt port number 3306. 
 <p align="center">
-<img src="images/Workbench-2.png" alt="hostname" width="80%"/>
+<img src="images/Workbench-2.png" alt="hostname" width="70%"/>
 </p>  
 
 3. Open the MySQL connection 
 <p align="center">
-<img src="images/Workbench-3.png" alt="open a new connection" width="80%"/>
+<img src="images/Workbench-3.png" alt="open a new connection" width="70%"/>
 </p>  
 
 4. Type your MySQL password, and select "Continue Anyway" if there is a "Connection Warning". Then you will be connected to the MySQL server. 
 <p align="center">
-<img src="images/Workbench-4.png" alt="connect" width="80%"/>
+<img src="images/Workbench-4.png" alt="connect" width="70%"/>
 </p>  
 
 ## 3. Activities 
 
-Follow the instructions to type the listed MySQL statements.
+Type the following MySQL statements.
+
+Note that after typing each statement, please click the icon highlighted in the red box to execute the statement. Also note that if a statement is valid, then there is a blue dot before the statement.
+<p align="center">
+<img src="images/Workbench-5.png" alt="execute" width="50%"/>
+</p>  
+
+If a statement is invalid, there is a red x before the statement. For example, line 3 in the following screenshot has a typo `iff`.
+<p align="center">
+<img src="images/Workbench-6.png" alt="invalid" width="50%"/>
+</p>  
 
 ### 3.1 Select your database
 
@@ -98,7 +108,6 @@ use lxu3;
 ```
 
 ### 3.2 Create a new table
-
 
 ```sql
 drop table if exists Student;
@@ -113,6 +122,17 @@ create table Student (
 
 
 ### 3.3 Insert data to the table
+
+```sql
+insert into Student (studentID, studentName, studentAge, studentMajor) 
+  values (1, "Alice", 18, "CS"),
+         (2, "Bob", 19, "CE"),
+         (3, "Crystal", 20, "SE");
+insert into Student 
+  values (4, "David", 21, "CE");
+insert into Student (studentID, studentName) 
+  values (5, "Emma");
+```
 
 ### 3.4 Query the table
 
