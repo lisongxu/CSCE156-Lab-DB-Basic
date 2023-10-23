@@ -67,29 +67,50 @@ We will use the MySQL server running on a Linux server of School of Computing.
 
 1. Create a new MySQL connection by clicking the plus sign 
 <p align="center">
-<img src="images/Workbench-1.png" alt="create a new connection" width="30%"/>
+<img src="images/Workbench-1.png" alt="create a new connection" width="80%"/>
 </p>  
 
 2. Type the hostname `cse-linux-01.unl.edu`, your MySQL username (e.g., my MySQL username is lxu3), a connection name (e.g., UNLCSE). We will use the defalt port number 3306. 
 <p align="center">
-<img src="images/Workbench-2.png" alt="hostname" width="30%"/>
+<img src="images/Workbench-2.png" alt="hostname" width="80%"/>
 </p>  
 
 3. Open the MySQL connection 
 <p align="center">
-<img src="images/Workbench-3.png" alt="open a new connection" width="30%"/>
+<img src="images/Workbench-3.png" alt="open a new connection" width="80%"/>
 </p>  
 
 4. Type your MySQL password, and select "Continue Anyway" if there is a "Connection Warning". Then you will be connected to the MySQL server. 
 <p align="center">
-<img src="images/Workbench-4.png" alt="connect" width="30%"/>
+<img src="images/Workbench-4.png" alt="connect" width="80%"/>
 </p>  
 
 ## 3. Activities 
 
+Follow the instructions to type the listed MySQL statements.
+
 ### 3.1 Select your database
 
+Replace `lxu3` in the following statement with your MySQL user name. 
+
+```sql
+use lxu3;
+```
+
 ### 3.2 Create a new table
+
+
+```sql
+drop table if exists Student;
+create table Student (
+	studentID int not null,
+	studentName varchar(255) not null,
+	studentAge int,
+	studentMajor char(2) not null default "CS",
+    primary key (studentID)
+);
+```
+
 
 ### 3.3 Insert data to the table
 
