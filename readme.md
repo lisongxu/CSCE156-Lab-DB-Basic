@@ -116,7 +116,7 @@ drop table if exists Student;
 create table Student (
 	studentID int not null,
 	studentName varchar(255) not null,
-	studentAge int,
+	studentYear int,
 	studentMajor char(2) not null default "CS",
     primary key (studentID)
 );
@@ -127,11 +127,11 @@ create table Student (
 
 ```sql
 insert into Student (studentID, studentName, studentAge, studentMajor) 
-  values (1, "Alice", 18, "CS"),
-         (2, "Bob", 19, "CE"),
-         (3, "Crystal", 20, "SE");
+  values (1, "Alice", 2010, "CS"),
+         (2, "Bob", 2011, "CE"),
+         (3, "Crystal", 2012, "SE");
 insert into Student 
-  values (4, "David", 21, "CE");
+  values (4, "David", 2013, "CE");
 insert into Student (studentID, studentName) 
   values (5, "Emma");
 ```
