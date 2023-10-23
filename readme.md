@@ -19,18 +19,20 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
     -   Information About Databases and Tables  
         <http://dev.mysql.com/doc/refman/5.6/en/getting-information.html>
 
+    -   Crteating table  
+        <https://www.w3schools.com/sql/sql_create_db.asp>
+
+    -   Inserting data  
+        <http://www.w3schools.com/sql/sql_insert.asp>
+
     -   Retrieving data  
         <http://www.w3schools.com/sql/sql_select.asp>
 
     -   Conditional clause  
         <http://www.w3schools.com/sql/sql_where.asp>
 
-    -   Inserting data  
-        <http://www.w3schools.com/sql/sql_insert.asp>
 
-    -   Deleting data  
-        <http://www.w3schools.com/sql/sql_delete.asp>
-
+    
 ### Lab Objectives & Topics
 
 Following the lab, you should be able to:
