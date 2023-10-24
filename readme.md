@@ -11,7 +11,7 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Resources
 
--   Information About Databases and Tables  
+-   Information about Databases and Tables  
         <http://dev.mysql.com/doc/refman/5.6/en/getting-information.html>
 
 -   Creating table  
