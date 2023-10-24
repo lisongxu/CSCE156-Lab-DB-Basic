@@ -141,7 +141,7 @@ insert into Student (studentID, studentName)
 Try the following queries.
 
 ```sql
-select * from table;
+select * from Student;
 select studentName from Student;
 select studentName from Student where studentMajor="CS" and studentYear<=2012;
 select * from Student where studentYear<=2012 order by studentName;
