@@ -11,7 +11,7 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Resources
 
--   Information about Databases and Tables  
+-   Information about databases and tables  
         <http://dev.mysql.com/doc/refman/5.6/en/getting-information.html>
 
 -   Creating table  
@@ -32,9 +32,9 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 Following the lab, you should be able to:
 
--   Connect to a database and execute queriess
+-   connect to a database
 
--   Perform basic Create, retrieve, update, and delete (CRUD) operations
+-   perform some basic database operations
 
 Note that the lab may involve some concepts or statements not covered (yet) in the class. You should be able to complete the lab without fully understanding them. If you have any questions about them, please feel free to ask our LAs. 
 
