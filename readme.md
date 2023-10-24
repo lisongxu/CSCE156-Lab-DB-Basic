@@ -118,7 +118,7 @@ create table Student (
 	studentName varchar(255) not null,
 	studentYear int,
 	studentMajor char(2) not null default "CS",
-    primary key (studentID)
+        primary key (studentID)
 );
 ```
 
