@@ -91,12 +91,12 @@ We will use the MySQL server running on a Linux server of School of Computing.
 
 Type the following MySQL statements.
 
-Note that after typing each statement, please click the icon highlighted in the red box to execute the statement. Also note that if a statement is valid, then there is a blue dot before the statement.
+Note that after typing each statement, please click the icon highlighted in the red box to execute the statement. Also note that if MySQL Workbench does not find any error in a statement, there is a blue dot before the statement.
 <p align="center">
 <img src="images/Workbench-5.png" alt="execute" width="50%"/>
 </p>  
 
-If a statement is invalid, there is a red x before the statement. For example, line 3 in the following screenshot has a typo `iff`.
+If MySQL Workbench finds an error in a statement, there is a red x before the statement. For example, line 3 in the following screenshot has a typo `iff`.
 <p align="center">
 <img src="images/Workbench-6.png" alt="invalid" width="50%"/>
 </p>  
