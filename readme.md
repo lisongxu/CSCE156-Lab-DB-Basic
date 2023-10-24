@@ -126,7 +126,7 @@ create table Student (
 ### 3.3 Insert data to the table
 
 ```sql
-insert into Student (studentID, studentName, studentAge, studentMajor) 
+insert into Student (studentID, studentName, studentYear, studentMajor) 
   values (1, "Alice", 2010, "CS"),
          (2, "Bob", 2011, "CE"),
          (3, "Crystal", 2012, "SE");
