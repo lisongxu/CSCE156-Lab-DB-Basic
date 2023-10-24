@@ -11,24 +11,19 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Resources
 
--   Install MySQL Workbench on your laptop:  
-    <https://www.mysql.com/products/workbench/>
-    
--   MySQL statements:
-
-    -   Information About Databases and Tables  
+-   Information About Databases and Tables  
         <http://dev.mysql.com/doc/refman/5.6/en/getting-information.html>
 
-    -   Creating table  
+-   Creating table  
         <https://www.w3schools.com/sql/sql_create_db.asp>
 
-    -   Inserting data  
+-   Inserting data  
         <http://www.w3schools.com/sql/sql_insert.asp>
 
-    -   Retrieving data  
+-   Retrieving data  
         <http://www.w3schools.com/sql/sql_select.asp>
 
-    -   Conditional clause  
+-   Conditional clause  
         <http://www.w3schools.com/sql/sql_where.asp>
 
 
@@ -103,7 +98,7 @@ If MySQL Workbench finds an error in a statement, there is a red x before the st
 
 ### 3.1 Select your database
 
-Replace `lxu3` in the following statement with your MySQL user name. 
+Replace `lxu3` in the following statement with your MySQL username. 
 
 ```sql
 use lxu3;
