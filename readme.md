@@ -138,8 +138,13 @@ insert into Student (studentID, studentName)
 
 ### 3.4 Query the table
 
+Try the following queries.
+
 ```sql
 select * from table;
+select studentName from Student;
+select studentName from Student where studentMajor="CS" and studentYear<=2012;
+select * from Student where studentYear<=2012 order by studentName;
 ```
 
 ## 4. Answer the lab questions on Canvas
