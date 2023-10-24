@@ -51,8 +51,7 @@ last week, be a navigator next, etc.
 
 ## 1. Install MySQL Workbench
 
-MySQL is a free Integrated Development Environment (IDE) for 
-JMySQL.  You can download and install
+MySQL is a free Integrated Development Environment (IDE) for MySQL.  You can download and install
 MySQL Workbench at the following URL.
 
 https://www.mysql.com/products/workbench/
