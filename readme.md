@@ -66,7 +66,7 @@ We will use the MySQL server running on a Linux server of School of Computing.
 <img src="images/Workbench-1.png" alt="create a new connection" width="70%"/>
 </p>  
 
-2. Type the hostname `cse-linux-01.unl.edu`, your MySQL username (e.g., my MySQL username is lxu3), and a connection name (e.g., UNLCSE). We will use the defalt port number 3306. 
+2. Type the hostname `cse-linux-01.unl.edu`, your MySQL username (e.g., my MySQL username is lxu3), and a connection name (e.g., UNLCSE). We will use the default port number 3306. 
 <p align="center">
 <img src="images/Workbench-2.png" alt="hostname" width="70%"/>
 </p>  
@@ -83,7 +83,7 @@ We will use the MySQL server running on a Linux server of School of Computing.
 
 ## 3. Activities 
 
-Type the following MySQL statements.
+Type and execute the following MySQL statements.
 
 Note that after typing each statement, please click the icon highlighted in the red box to execute the statement. Also note that if MySQL Workbench does not find any error in a statement, there is a blue dot before the statement.
 <p align="center">
@@ -143,4 +143,4 @@ select * from Student where studentYear<=2012 order by studentName;
 
 ## 4. Answer the lab questions on Canvas
 
-* You do not need to submit any code. Instead please answer the lab questions on Canvas. 
+* You do not need to submit any code for this lab. Instead please answer the lab questions on Canvas. 
