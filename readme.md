@@ -1,5 +1,5 @@
 # Computer Science II
-## Lab 6.0 - MySQL
+## Lab 7.0 - MySQL
 
 An introduction to Structured Query Language (SQL) used in databases.
 
