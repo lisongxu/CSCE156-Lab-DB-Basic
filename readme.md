@@ -1,9 +1,9 @@
 # Computer Science II
-## Lab 7.0 - Basic MySQL
+## Lab X - Basic MySQL
 
 An introduction to Structured Query Language (SQL) used in databases.
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2024 
+This is a lab used in Computer Science II (CSCE 156) for Fall XXXX 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
